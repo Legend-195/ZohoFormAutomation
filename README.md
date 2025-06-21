@@ -27,12 +27,7 @@ Edit
 - Skips missing fields gracefully
 - Logs issues related to missing images or data
 
-## 🔧 Requirements
 
-Install the required Python packages using:
-
-```bash
-pip install pyautogui pandas pillow requests openpyxl opencv-python
 ## 🧠 How It Works
 1. Excel Transposition
 The Excel data is stored with field names in the first column and corresponding values in the second. The script transposes this using:
@@ -111,4 +106,9 @@ country.png
 image.png (for image upload field)
 
 submit.png
+## 🔧 Requirements
 
+Install the required Python packages using:
+
+```bash
+pip install pyautogui pandas pillow requests openpyxl opencv-python
