@@ -5,6 +5,7 @@ This project automates the process of filling out a Zoho Form using data from an
 ## 📁 Project Structure
 
 ZohoFormAutomation/
+
 ├── data.xlsx # Excel file with form data (row-wise headers)
 
 ├── downloads/ # Folder where downloaded images are saved
@@ -13,9 +14,7 @@ ZohoFormAutomation/
 
 ├── form_automation.py # Main Python automation script
 
-markdown
-Copy
-Edit
+
 
 ## ✅ Features
 
@@ -32,10 +31,8 @@ Edit
 1. Excel Transposition
 The Excel data is stored with field names in the first column and corresponding values in the second. The script transposes this using:
 
-python
-Copy
-Edit
 df = raw_df.set_index(0).T.reset_index(drop=True)
+
 2. Screenshot-Based Field Detection
 Each form field label is matched with a screenshot saved in the screenshots/ folder. These are used with pyautogui.locateCenterOnScreen() to identify where to click.
 
