@@ -51,7 +51,7 @@ Image URLs from the Excel file are processed using requests and saved locally be
 6. Scrolling and Submission
 The form is scrolled using pyautogui.scroll() to access lower fields and ensure the submit button is visible before clicking it.
 
-##📝 How to Use
+## 📝 How to Use
 Place your form data in data.xlsx with the first column as field names (e.g., "First Name", "Email") and second column as values.
 
 Capture screenshots of all form field labels using any screen capture tool and save them in the screenshots/ folder. Use descriptive names like:
@@ -66,9 +66,7 @@ submit.png
 
 Run the script:
 
-bash
-Copy
-Edit
+
 python form_automation.py
 The script will:
 
@@ -80,7 +78,7 @@ Loop through each Excel row
 
 Fill the form and submit it
 
-##📸 Required Screenshots
+## 📸 Required Screenshots
 Screenshots should be taken clearly and saved in the screenshots/ directory:
 
 first_name.png
